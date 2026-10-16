@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mente Conectada: hiperconectividade e saúde mental. Explore, pratique e equilibre sua vida digital.">
+  <title>Mente Conectada</title>
+  <link rel="icon" href="assets/Logo.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="nav-lado nav-esq" aria-label="Navegação esquerda">
+      <a href="roleta.html">Roleta</a>
+    </nav>
+    <a href="index.html" class="logo-central" aria-label="Mente Conectada, página inicial" aria-current="page">
+      <img src="assets/FullLogo.png" alt="Mente Conectada">
+    </a>
+    <nav class="nav-lado nav-dir" aria-label="Navegação direita">
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-texto">
+        <h1>Conectados ao mundo, presentes na vida.</h1>
+        <p>A <strong>Mente Conectada</strong> é um projeto sobre hiperconectividade e saúde mental. Aqui você entende como o excesso de telas afeta o corpo e a mente, e aprende a usar a tecnologia a seu favor.</p>
+        <div class="grupo-botoes">
+          <a class="botao" href="#explore">Começar a explorar</a>
+          <a class="botao botao-secundario" href="quiz.html">Fazer o quiz</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="assets/Logo.png" alt="Silhueta de uma cabeça com cérebro e circuitos, símbolo da Mente Conectada">
+      </div>
+    </section>
+
+    <!-- O QUE É -->
+    <section class="bloco bloco-claro" id="o-que-e">
+      <div class="bloco-conteudo duas-colunas">
+        <div>
+          <h2>O que é hiperconectividade?</h2>
+        </div>
+        <div class="texto-corrido">
+          <p>É o estado de estar conectado quase o tempo todo: mensagens, redes sociais, vídeos, jogos e notificações disputando a nossa atenção do acordar ao dormir.</p>
+          <p>Usar a internet não é o problema. A questão aparece quando a conexão constante começa a atrapalhar o sono, os estudos, as amizades e o bem-estar, e ficar sem o celular passa a causar desconforto.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE -->
+    <section class="explore" id="explore">
+      <div class="explore-topo">
+        <h2 class="titulo-grande">Explore e pratique</h2>
+        <p>Vire as cartas, faça uma pausa na roleta e teste o que você sabe sobre vida digital e saúde mental.</p>
+      </div>
+
+      <div class="cartas-container">
+        <button class="carta" type="button" aria-label="Virar carta sobre redes sociais" aria-pressed="false">
+          <span class="carta-interna">
+            <span class="carta-frente">
+              <span class="simbolo">📱</span>
+              <strong>Redes sociais</strong>
+              <small>Toque para descobrir</small>
+            </span>
+            <span class="carta-verso">
+              <strong>Redes sociais</strong>
+              <span>Podem aproximar pessoas, mas é importante usar com equilíbrio.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="carta" type="button" aria-label="Virar carta sobre saúde mental" aria-pressed="false">
+          <span class="carta-interna">
+            <span class="carta-frente">
+              <span class="simbolo">🧠</span>
+              <strong>Saúde mental</strong>
+              <small>Toque para descobrir</small>
+            </span>
+            <span class="carta-verso">
+              <strong>Saúde mental</strong>
+              <span>Descanso, convivência e limites digitais ajudam no bem-estar.</span>
+            </span>
+          </span>
+        </button>
+
+        <button class="carta" type="button" aria-label="Virar carta sobre equilíbrio digital" aria-pressed="false">
+          <span class="carta-interna">
+            <span class="carta-frente">
+              <span class="simbolo">⚖️</span>
+              <strong>Equilíbrio digital</strong>
+              <small>Toque para descobrir</small>
+            </span>
+            <span class="carta-verso">
+              <strong>Equilíbrio digital</strong>
+              <span>Usar a tecnologia com intenção ajuda a preservar tempo para outras atividades.</span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SINAIS DE ALERTA -->
+    <section class="bloco bloco-claro" id="sinais">
+      <div class="bloco-conteudo">
+        <h2 class="titulo-bloco">Sinais de que é hora de parar e pensar</h2>
+        <p class="intro-bloco">Se vários destes pontos aparecem com frequência, vale observar sua rotina com mais atenção.</p>
+        <ul class="lista-sinais">
+          <li>Você pega o celular sem perceber, mesmo sem nenhum motivo.</li>
+          <li>Fica ansioso ou irritado quando está sem bateria, sem sinal ou sem o aparelho.</li>
+          <li>Perde horas de sono por causa de redes sociais, vídeos ou jogos.</li>
+          <li>Os estudos ou as tarefas ficam para depois por causa do celular.</li>
+          <li>Prefere ficar nas telas a encontrar amigos e família.</li>
+          <li>Tenta diminuir o uso, mas não consegue e se sente mal por isso.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MITO OU VERDADE -->
+    <section class="bloco bloco-claro" id="mitos">
+      <div class="bloco-conteudo estreito">
+        <h2 class="titulo-bloco">Mito ou verdade?</h2>
+        <p class="intro-bloco">Clique na afirmação para ver a resposta.</p>
+
+        <details class="mito">
+          <summary>“Fazer várias coisas ao mesmo tempo no celular aumenta a produtividade.”</summary>
+          <p><strong>Mito.</strong> O cérebro não faz duas tarefas de atenção ao mesmo tempo: ele alterna rapidamente entre elas, e isso cansa e atrasa o trabalho.</p>
+        </details>
+        <details class="mito">
+          <summary>“O que as pessoas postam mostra a vida real delas.”</summary>
+          <p><strong>Mito.</strong> As redes mostram recortes escolhidos e muitas vezes editados. Comparar a sua vida inteira com o melhor momento de alguém não é justo com você.</p>
+        </details>
+        <details class="mito">
+          <summary>“Usar o celular antes de dormir pode atrapalhar o sono.”</summary>
+          <p><strong>Verdade.</strong> A luz, os conteúdos estimulantes e as notificações mantêm o cérebro ativo e podem adiar o sono.</p>
+        </details>
+        <details class="mito">
+          <summary>“Só o tempo de tela importa para saber se o uso é saudável.”</summary>
+          <p><strong>Mito.</strong> Importa também o efeito do uso: se há prejuízo no sono, nos estudos, nas relações ou no humor, é sinal de atenção, mesmo com poucas horas.</p>
+        </details>
+        <details class="mito">
+          <summary>“Pedir ajuda por causa do uso excessivo de internet é exagero.”</summary>
+          <p><strong>Mito.</strong> Quando o uso persiste, prejudica a rotina e causa sofrimento ao tentar reduzir, conversar com alguém de confiança e com um profissional pode ajudar.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- AÇÕES -->
+    <section class="bloco" id="praticar">
+      <div class="bloco-conteudo">
+        <h2 class="titulo-bloco">Agora é com você</h2>
+        <div class="acoes">
+          <a class="acao acao-cheia" href="roleta.html">
+            <span class="icone" aria-hidden="true">🌷</span>
+            <h3>Roleta do autocuidado</h3>
+            <p>Gire a roleta e receba uma pausa rápida para relaxar e voltar ao presente.</p>
+            <span class="link-texto">Abrir a roleta</span>
+          </a>
+          <a class="acao" href="quiz.html">
+            <span class="icone" aria-hidden="true">🎯</span>
+            <h3>Quiz interativo</h3>
+            <p>Oito perguntas para testar o que você sabe sobre vida digital e saúde mental.</p>
+            <span class="link-texto">Começar o quiz</span>
+          </a>
+        </div>
+        <p class="fecho">A tecnologia deve fazer parte da vida, não controlar a vida.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mente Conectada</p>
+    <p>Use a tecnologia com consciência e equilíbrio.</p>
+  </footer>
+</body>
+</html>
